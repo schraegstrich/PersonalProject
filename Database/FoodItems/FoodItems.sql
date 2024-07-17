@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[FoodItems]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY,
+	[Name] NVARCHAR(250) NOT NULL,
+	[Link] NVARCHAR(2500),
+	[QuantityInPackInGramsOrMl] INT,
+	[QuantityInPcs] INT,
+	[DateAdded] DATETIME NOT NULL
+)
