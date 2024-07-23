@@ -1,0 +1,5 @@
+﻿CREATE PROCEDURE [dbo].[DELETE_IngredientById]
+	@Id UNIQUEIDENTIFIER
+AS
+	DELETE FROM Ingredients
+	WHERE Id = @Id

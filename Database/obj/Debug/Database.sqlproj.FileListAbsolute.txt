@@ -8,3 +8,13 @@ C:\Users\user\Desktop\PersonalProject\Database\obj\Debug\postdeploy.sql
 C:\Users\user\Desktop\PersonalProject\Database\obj\Debug\predeploy.sql
 C:\Users\user\Desktop\PersonalProject\Database\obj\Debug\Database.dll
 C:\Users\user\Desktop\PersonalProject\Database\obj\Debug\Database.pdb
+C:\Users\user\Desktop\Personal\Database\bin\Debug\Database.dacpac
+C:\Users\user\Desktop\Personal\Database\bin\Debug\Database.dll
+C:\Users\user\Desktop\Personal\Database\bin\Debug\Database.pdb
+C:\Users\user\Desktop\Personal\Database\obj\Debug\Database.sqlproj.AssemblyReference.cache
+C:\Users\user\Desktop\Personal\Database\obj\Debug\Database.dll
+C:\Users\user\Desktop\Personal\Database\obj\Debug\Database.pdb
+C:\Users\user\Desktop\Personal\Database\obj\Debug\Model.xml
+C:\Users\user\Desktop\Personal\Database\obj\Debug\refactor.xml
+C:\Users\user\Desktop\Personal\Database\obj\Debug\postdeploy.sql
+C:\Users\user\Desktop\Personal\Database\obj\Debug\predeploy.sql

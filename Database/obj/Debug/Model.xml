@@ -12,7 +12,7 @@
 		</CustomData>
 		<CustomData Category="Reference" Type="Assembly">
 			<Metadata Name="LogicalName" Value="Database.dll" />
-			<Metadata Name="FileName" Value="C:\USERS\USER\DESKTOP\PERSONALPROJECT\DATABASE\OBJ\DEBUG\DATABASE.DLL" />
+			<Metadata Name="FileName" Value="C:\USERS\USER\DESKTOP\PERSONAL\DATABASE\OBJ\DEBUG\DATABASE.DLL" />
 			<Metadata Name="AssemblyName" Value="Database" />
 			<Metadata Name="PermissionSet" Value="SAFE" />
 			<Metadata Name="Owner" Value="" />
@@ -20,7 +20,7 @@
 			<Metadata Name="IsVisible" Value="True" />
 			<Metadata Name="IsModelAware" Value="True" />
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
-			<Metadata Name="AssemblySymbolsName" Value="C:\Users\user\Desktop\PersonalProject\Database\obj\Debug\Database.pdb" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Users\user\Desktop\Personal\Database\obj\Debug\Database.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
 	</Header>
@@ -96,7 +96,7 @@
 					<Element Type="SqlIndexedColumnSpecification">
 						<Relationship Name="Column">
 							<Entry>
-								<References Name="[dbo].[Ingredients].[Id]" />
+								<References Name="[dbo].[Recipes].[Id]" />
 							</Entry>
 						</Relationship>
 					</Element>
@@ -104,7 +104,7 @@
 			</Relationship>
 			<Relationship Name="DefiningTable">
 				<Entry>
-					<References Name="[dbo].[Ingredients]" />
+					<References Name="[dbo].[Recipes]" />
 				</Entry>
 			</Relationship>
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="5" />
@@ -115,7 +115,7 @@
 					<Element Type="SqlIndexedColumnSpecification">
 						<Relationship Name="Column">
 							<Entry>
-								<References Name="[dbo].[Recipes].[Id]" />
+								<References Name="[dbo].[Ingredients].[Id]" />
 							</Entry>
 						</Relationship>
 					</Element>
@@ -123,7 +123,7 @@
 			</Relationship>
 			<Relationship Name="DefiningTable">
 				<Entry>
-					<References Name="[dbo].[Recipes]" />
+					<References Name="[dbo].[Ingredients]" />
 				</Entry>
 			</Relationship>
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="6" />
@@ -146,6 +146,147 @@
 				</Entry>
 			</Relationship>
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="7" />
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[DELETE_FoodItemById]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+	DELETE FROM FoodItems
+	WHERE Id = @Id]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[FoodItems]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FoodItems].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[DELETE_FoodItemById].[@Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[DELETE_FoodItemById].[@Id]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[uniqueidentifier]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="112" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[DELETE_FoodItemById]&#xD;&#xA;&#x9;@Id UNIQUEIDENTIFIER&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[DELETE_IngredientById]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+	DELETE FROM Ingredients
+	WHERE Id = @Id]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[Ingredients]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Ingredients].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[DELETE_IngredientById].[@Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[DELETE_IngredientById].[@Id]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[uniqueidentifier]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="116" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[DELETE_IngredientById]&#xD;&#xA;&#x9;@Id UNIQUEIDENTIFIER&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[DELETE_RecipeById]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+	DELETE FROM Recipes
+	WHERE Id = @Id]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[Recipes]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Recipes].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[DELETE_RecipeById].[@Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[DELETE_RecipeById].[@Id]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[uniqueidentifier]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="108" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[DELETE_RecipeById]&#xD;&#xA;&#x9;@Id UNIQUEIDENTIFIER&#xD;&#xA;AS" />
+			</Annotation>
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[FoodItems]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -252,6 +393,213 @@
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[GET_AllFoodItems]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+	SELECT Id, Name, Link, QuantityInPackInGramsOrMl, QuantityInPcs, DateAdded
+	FROM FoodItems]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[FoodItems]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FoodItems].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FoodItems].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FoodItems].[Link]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FoodItems].[QuantityInPackInGramsOrMl]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FoodItems].[QuantityInPcs]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FoodItems].[DateAdded]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="139" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[GET_AllFoodItems]&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[GET_AllRecipies]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+SELECT Id, Name, Description, CookingTimeInMinutes, DateAdded
+FROM Recipes]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[Recipes]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Recipes].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Recipes].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Recipes].[Description]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Recipes].[CookingTimeInMinutes]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Recipes].[DateAdded]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="121" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[GET_AllRecipies]&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[GET_FoodItemById]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+	SELECT Id, Name, Link, QuantityInPackInGramsOrMl, QuantityInPcs, DateAdded
+	FROM FoodItems
+	WHERE Id = @Id]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[FoodItems]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FoodItems].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FoodItems].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FoodItems].[Link]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FoodItems].[QuantityInPackInGramsOrMl]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FoodItems].[QuantityInPcs]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FoodItems].[DateAdded]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[GET_FoodItemById].[@Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[GET_FoodItemById].[@Id]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[uniqueidentifier]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="179" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[GET_FoodItemById]&#xD;&#xA;&#x9;@Id UNIQUEIDENTIFIER&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[GET_IngredientById]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+SELECT Id, RecipeId, FoodItemId, Name, QuantityInGramsOrMl, DateAdded
+FROM Ingredients 
+WHERE Id = @Id]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[Ingredients]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Ingredients].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Ingredients].[RecipeId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Ingredients].[FoodItemId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Ingredients].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Ingredients].[QuantityInGramsOrMl]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Ingredients].[DateAdded]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[GET_IngredientById].[@Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[GET_IngredientById].[@Id]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[uniqueidentifier]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="176" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[GET_IngredientById]&#xD;&#xA;&#x9;@Id UNIQUEIDENTIFIER&#xD;&#xA;AS" />
+			</Annotation>
 		</Element>
 		<Element Type="SqlProcedure" Name="[dbo].[GET_IngredientsByFoodItemId]">
 			<Property Name="BodyScript">
@@ -379,6 +727,66 @@ WHERE RecipeId = @RecipeId]]></Value>
 				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[GET_IngredientsByRecipeId]&#xD;&#xA;&#x9;@RecipeId UNIQUEIDENTIFIER&#xD;&#xA;AS" />
 			</Annotation>
 		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[GET_RecipeById]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+	SELECT Id, Name, Description, CookingTimeInMinutes, DateAdded
+	FROM Recipes
+	WHERE Id = @Id]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[Recipes]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Recipes].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Recipes].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Recipes].[Description]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Recipes].[CookingTimeInMinutes]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Recipes].[DateAdded]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[GET_RecipeById].[@Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[GET_RecipeById].[@Id]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[uniqueidentifier]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="162" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[GET_RecipeById]&#xD;&#xA;&#x9;@Id UNIQUEIDENTIFIER&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
 		<Element Type="SqlTable" Name="[dbo].[Ingredients]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
 			<Relationship Name="Columns">
@@ -396,7 +804,7 @@ WHERE RecipeId = @RecipeId]]></Value>
 								</Element>
 							</Entry>
 						</Relationship>
-						<AttachedAnnotation Disambiguator="5" />
+						<AttachedAnnotation Disambiguator="6" />
 					</Element>
 				</Entry>
 				<Entry>
@@ -450,7 +858,21 @@ WHERE RecipeId = @RecipeId]]></Value>
 				</Entry>
 				<Entry>
 					<Element Type="SqlSimpleColumn" Name="[dbo].[Ingredients].[QuantityInGramsOrMl]">
-						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Ingredients].[QuantityInPc]">
 						<Relationship Name="TypeSpecifier">
 							<Entry>
 								<Element Type="SqlTypeSpecifier">
@@ -535,21 +957,6 @@ values
 			</Relationship>
 			<Relationship Name="Parameters">
 				<Entry>
-					<Element Type="SqlSubroutineParameter" Name="[dbo].[INSERT_FoodItem].[@Id]">
-						<Relationship Name="Type">
-							<Entry>
-								<Element Type="SqlTypeSpecifier">
-									<Relationship Name="Type">
-										<Entry>
-											<References ExternalSource="BuiltIns" Name="[uniqueidentifier]" />
-										</Entry>
-									</Relationship>
-								</Element>
-							</Entry>
-						</Relationship>
-					</Element>
-				</Entry>
-				<Entry>
 					<Element Type="SqlSubroutineParameter" Name="[dbo].[INSERT_FoodItem].[@Name]">
 						<Relationship Name="Type">
 							<Entry>
@@ -611,21 +1018,6 @@ values
 						</Relationship>
 					</Element>
 				</Entry>
-				<Entry>
-					<Element Type="SqlSubroutineParameter" Name="[dbo].[INSERT_FoodItem].[@DateAdded]">
-						<Relationship Name="Type">
-							<Entry>
-								<Element Type="SqlTypeSpecifier">
-									<Relationship Name="Type">
-										<Entry>
-											<References ExternalSource="BuiltIns" Name="[datetime]" />
-										</Entry>
-									</Relationship>
-								</Element>
-							</Entry>
-						</Relationship>
-					</Element>
-				</Entry>
 			</Relationship>
 			<Relationship Name="Schema">
 				<Entry>
@@ -633,10 +1025,10 @@ values
 				</Entry>
 			</Relationship>
 			<Annotation Type="SysCommentsObjectAnnotation">
-				<Property Name="Length" Value="383" />
+				<Property Name="Length" Value="336" />
 				<Property Name="StartLine" Value="1" />
 				<Property Name="StartColumn" Value="1" />
-				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[INSERT_FoodItem]&#xD;&#xA;&#x9;@Id UNIQUEIDENTIFIER,&#xD;&#xA;&#x9;@Name NVARCHAR(250),&#xD;&#xA;&#x9;@Link NVARCHAR(2500),&#xD;&#xA;&#x9;@QuantityInPackInGramsOrMl INT,&#xD;&#xA;&#x9;@QuantityInPcs INT,&#xD;&#xA;&#x9;@DateAdded DATETIME &#xD;&#xA;AS" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[INSERT_FoodItem]&#xD;&#xA;&#x9;@Name NVARCHAR(250),&#xD;&#xA;&#x9;@Link NVARCHAR(2500),&#xD;&#xA;&#x9;@QuantityInPackInGramsOrMl INT,&#xD;&#xA;&#x9;@QuantityInPcs INT &#xD;&#xA;AS" />
 			</Annotation>
 		</Element>
 		<Element Type="SqlProcedure" Name="[dbo].[INSERT_Ingredient]">
@@ -684,21 +1076,6 @@ values
 				</Entry>
 			</Relationship>
 			<Relationship Name="Parameters">
-				<Entry>
-					<Element Type="SqlSubroutineParameter" Name="[dbo].[INSERT_Ingredient].[@Id]">
-						<Relationship Name="Type">
-							<Entry>
-								<Element Type="SqlTypeSpecifier">
-									<Relationship Name="Type">
-										<Entry>
-											<References ExternalSource="BuiltIns" Name="[uniqueidentifier]" />
-										</Entry>
-									</Relationship>
-								</Element>
-							</Entry>
-						</Relationship>
-					</Element>
-				</Entry>
 				<Entry>
 					<Element Type="SqlSubroutineParameter" Name="[dbo].[INSERT_Ingredient].[@RecipeId]">
 						<Relationship Name="Type">
@@ -760,21 +1137,6 @@ values
 						</Relationship>
 					</Element>
 				</Entry>
-				<Entry>
-					<Element Type="SqlSubroutineParameter" Name="[dbo].[INSERT_Ingredient].[@DateAdded]">
-						<Relationship Name="Type">
-							<Entry>
-								<Element Type="SqlTypeSpecifier">
-									<Relationship Name="Type">
-										<Entry>
-											<References ExternalSource="BuiltIns" Name="[datetime]" />
-										</Entry>
-									</Relationship>
-								</Element>
-							</Entry>
-						</Relationship>
-					</Element>
-				</Entry>
 			</Relationship>
 			<Relationship Name="Schema">
 				<Entry>
@@ -782,10 +1144,10 @@ values
 				</Entry>
 			</Relationship>
 			<Annotation Type="SysCommentsObjectAnnotation">
-				<Property Name="Length" Value="387" />
+				<Property Name="Length" Value="339" />
 				<Property Name="StartLine" Value="1" />
 				<Property Name="StartColumn" Value="1" />
-				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[INSERT_Ingredient]&#xD;&#xA;&#x9;@Id UNIQUEIDENTIFIER,&#xD;&#xA;&#x9;@RecipeId UNIQUEIDENTIFIER,&#xD;&#xA;&#x9;@FoodItemId UNIQUEIDENTIFIER,&#xD;&#xA;&#x9;@Name NVARCHAR(250),&#xD;&#xA;&#x9;@QuantityInGramsOrMl INT,&#xD;&#xA;&#x9;@DateAdded DATETIME &#xD;&#xA;AS" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[INSERT_Ingredient]&#xD;&#xA;&#x9;@RecipeId UNIQUEIDENTIFIER,&#xD;&#xA;&#x9;@FoodItemId UNIQUEIDENTIFIER,&#xD;&#xA;&#x9;@Name NVARCHAR(250),&#xD;&#xA;&#x9;@QuantityInGramsOrMl INT&#xD;&#xA;AS" />
 			</Annotation>
 		</Element>
 		<Element Type="SqlProcedure" Name="[dbo].[INSERT_Recipe]">
@@ -827,21 +1189,6 @@ values
 				</Entry>
 			</Relationship>
 			<Relationship Name="Parameters">
-				<Entry>
-					<Element Type="SqlSubroutineParameter" Name="[dbo].[INSERT_Recipe].[@Id]">
-						<Relationship Name="Type">
-							<Entry>
-								<Element Type="SqlTypeSpecifier">
-									<Relationship Name="Type">
-										<Entry>
-											<References ExternalSource="BuiltIns" Name="[uniqueidentifier]" />
-										</Entry>
-									</Relationship>
-								</Element>
-							</Entry>
-						</Relationship>
-					</Element>
-				</Entry>
 				<Entry>
 					<Element Type="SqlSubroutineParameter" Name="[dbo].[INSERT_Recipe].[@Name]">
 						<Relationship Name="Type">
@@ -889,21 +1236,6 @@ values
 						</Relationship>
 					</Element>
 				</Entry>
-				<Entry>
-					<Element Type="SqlSubroutineParameter" Name="[dbo].[INSERT_Recipe].[@DateAdded]">
-						<Relationship Name="Type">
-							<Entry>
-								<Element Type="SqlTypeSpecifier">
-									<Relationship Name="Type">
-										<Entry>
-											<References ExternalSource="BuiltIns" Name="[datetime]" />
-										</Entry>
-									</Relationship>
-								</Element>
-							</Entry>
-						</Relationship>
-					</Element>
-				</Entry>
 			</Relationship>
 			<Relationship Name="Schema">
 				<Entry>
@@ -911,10 +1243,10 @@ values
 				</Entry>
 			</Relationship>
 			<Annotation Type="SysCommentsObjectAnnotation">
-				<Property Name="Length" Value="329" />
+				<Property Name="Length" Value="281" />
 				<Property Name="StartLine" Value="1" />
 				<Property Name="StartColumn" Value="1" />
-				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[INSERT_Recipe]&#xD;&#xA;&#x9;@Id UNIQUEIDENTIFIER,&#xD;&#xA;&#x9;@Name NVARCHAR(250),&#xD;&#xA;&#x9;@Description NVARCHAR(2000),&#xD;&#xA;&#x9;@CookingTimeInMinutes INT,&#xD;&#xA;&#x9;@DateAdded DATETIME &#xD;&#xA;AS" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[INSERT_Recipe]&#xD;&#xA;&#x9;@Name NVARCHAR(250),&#xD;&#xA;&#x9;@Description NVARCHAR(2000),&#xD;&#xA;&#x9;@CookingTimeInMinutes INT&#xD;&#xA;AS" />
 			</Annotation>
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[Recipes]">
@@ -934,7 +1266,7 @@ values
 								</Element>
 							</Entry>
 						</Relationship>
-						<AttachedAnnotation Disambiguator="6" />
+						<AttachedAnnotation Disambiguator="5" />
 					</Element>
 				</Entry>
 				<Entry>
@@ -1008,6 +1340,425 @@ values
 					<References ExternalSource="BuiltIns" Name="[dbo]" />
 				</Entry>
 			</Relationship>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[UPDATE_FoodItemById]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+UPDATE FoodItems
+SET  Name = @Name, Link = @Link, QuantityInPackInGramsOrMl = @QuantityInPackInGramsOrMl, QuantityInPcs = @QuantityInPcs, DateAdded = SYSUTCDATETIME() 
+WHERE Id = @Id]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[FoodItems]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FoodItems].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UPDATE_FoodItemById].[@Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FoodItems].[Link]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UPDATE_FoodItemById].[@Link]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FoodItems].[QuantityInPackInGramsOrMl]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UPDATE_FoodItemById].[@QuantityInPackInGramsOrMl]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FoodItems].[QuantityInPcs]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UPDATE_FoodItemById].[@QuantityInPcs]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FoodItems].[DateAdded]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[FoodItems].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UPDATE_FoodItemById].[@Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UPDATE_FoodItemById].[@Id]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[uniqueidentifier]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UPDATE_FoodItemById].[@Name]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="250" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UPDATE_FoodItemById].[@Link]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="2500" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UPDATE_FoodItemById].[@QuantityInPackInGramsOrMl]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UPDATE_FoodItemById].[@QuantityInPcs]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UPDATE_FoodItemById].[@DateAdded]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="384" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[UPDATE_FoodItemById]&#xD;&#xA;&#x9;@Id UNIQUEIDENTIFIER,&#xD;&#xA;&#x9;@Name NVARCHAR(250),&#xD;&#xA;&#x9;@Link NVARCHAR(2500),&#xD;&#xA;&#x9;@QuantityInPackInGramsOrMl INT,&#xD;&#xA;&#x9;@QuantityInPcs INT,&#xD;&#xA;&#x9;@DateAdded DATETIME &#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[UPDATE_IngredientById]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+UPDATE Ingredients
+SET RecipeId = @RecipeId, FoodItemId = @FoodItemId, Name = @Name, QuantityInGramsOrMl = @QuantityInGramsOrMl, DateAdded = SYSUTCDATETIME()
+WHERE Id = @Id]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[Ingredients]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Ingredients].[RecipeId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UPDATE_IngredientById].[@RecipeId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Ingredients].[FoodItemId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UPDATE_IngredientById].[@FoodItemId]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Ingredients].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UPDATE_IngredientById].[@Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Ingredients].[QuantityInGramsOrMl]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UPDATE_IngredientById].[@QuantityInGramsOrMl]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Ingredients].[DateAdded]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Ingredients].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UPDATE_IngredientById].[@Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UPDATE_IngredientById].[@Id]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[uniqueidentifier]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UPDATE_IngredientById].[@RecipeId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[uniqueidentifier]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UPDATE_IngredientById].[@FoodItemId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[uniqueidentifier]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UPDATE_IngredientById].[@Name]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="250" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UPDATE_IngredientById].[@QuantityInGramsOrMl]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UPDATE_IngredientById].[@DateAdded]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[datetime]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="386" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[UPDATE_IngredientById]&#xD;&#xA;&#x9;@Id UNIQUEIDENTIFIER,&#xD;&#xA;&#x9;@RecipeId UNIQUEIDENTIFIER,&#xD;&#xA;&#x9;@FoodItemId UNIQUEIDENTIFIER,&#xD;&#xA;&#x9;@Name NVARCHAR(250),&#xD;&#xA;&#x9;@QuantityInGramsOrMl INT,&#xD;&#xA;&#x9;@DateAdded DATETIME &#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[UPDATE_RecipeById]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+UPDATE Recipes
+SET Name = @Name,Description = @Description, CookingTimeInMinutes = @CookingTimeInMinutes, DateAdded = SYSUTCDATETIME()
+WHERE Id = @Id]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[Recipes]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Recipes].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UPDATE_RecipeById].[@Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Recipes].[Description]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UPDATE_RecipeById].[@Description]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Recipes].[CookingTimeInMinutes]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UPDATE_RecipeById].[@CookingTimeInMinutes]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Recipes].[DateAdded]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Recipes].[Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[UPDATE_RecipeById].[@Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UPDATE_RecipeById].[@Id]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[uniqueidentifier]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UPDATE_RecipeById].[@Name]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="250" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UPDATE_RecipeById].[@Description]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="2000" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[UPDATE_RecipeById].[@CookingTimeInMinutes]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="305" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[UPDATE_RecipeById]&#xD;&#xA;&#x9;@Id UNIQUEIDENTIFIER,&#xD;&#xA;&#x9;@Name NVARCHAR(250),&#xD;&#xA;&#x9;@Description NVARCHAR(2000),&#xD;&#xA;&#x9;@CookingTimeInMinutes INT&#xD;&#xA;AS" />
+			</Annotation>
 		</Element>
 	</Model>
 </DataSchemaModel>

@@ -1,20 +1,29 @@
+using System.Text;
+
+using System.Data.SqlClient;
+using Services;
+
+SqlConnectionStringBuilder connectionStringBuilder = new()
+{
+    DataSource = @"DESKTOP-CUM9PGM",
+    InitialCatalog = "PersonalProjectDB",
+    IntegratedSecurity = true,
+    Pooling = false,
+    Encrypt = true,
+    TrustServerCertificate = true
+};
+Environment.SetEnvironmentVariable("DB_CONNECTION_STRING", connectionStringBuilder.ConnectionString);
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<RecipeServices>();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
 
 app.UseHttpsRedirection();
 

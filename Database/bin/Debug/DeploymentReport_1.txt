@@ -1,0 +1,29 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       [dbo].[FoodItems]
+       [dbo].[Ingredients]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[Ingredients] (Foreign Key)
+       unnamed constraint on [dbo].[Ingredients] (Foreign Key)
+     Recreate table
+       [dbo].[FoodItems] (Table)
+       [dbo].[Ingredients] (Table)
+     Alter
+       [dbo].[INSERT_FoodItem] (Procedure)
+
+** Supporting actions
+     Create
+       Foreign Key: unnamed constraint on [dbo].[Ingredients] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Ingredients] (Foreign Key)
+     Refresh
+       [dbo].[GET_IngredientsByFoodItemId] (Procedure)
+       [dbo].[GET_IngredientsByRecipeId] (Procedure)
+       [dbo].[INSERT_Ingredient] (Procedure)

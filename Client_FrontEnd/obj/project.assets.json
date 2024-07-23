@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\PersonalProject\\Client_FrontEnd\\Client_FrontEnd.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\Client_FrontEnd.csproj",
       "projectName": "Client_FrontEnd",
-      "projectPath": "C:\\Users\\user\\Desktop\\PersonalProject\\Client_FrontEnd\\Client_FrontEnd.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\Client_FrontEnd.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\PersonalProject\\Client_FrontEnd\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[DELETE_FoodItemById] (Procedure)
+       [dbo].[DELETE_IngredientById] (Procedure)
+       [dbo].[DELETE_RecipeById] (Procedure)
+       [dbo].[FoodItemById] (Procedure)
+       [dbo].[GET_AllFoodItems] (Procedure)
+       [dbo].[GET_AllRecipies] (Procedure)
+       [dbo].[GET_IngredientById] (Procedure)
+       [dbo].[GET_RecipeById] (Procedure)
+       [dbo].[UPDATE_FoodItem] (Procedure)
+       [dbo].[UPDATE_IngredientById] (Procedure)
+       [dbo].[UPDATE_RecipeById] (Procedure)
+
+** Supporting actions
