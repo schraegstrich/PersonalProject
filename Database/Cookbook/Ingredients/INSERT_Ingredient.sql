@@ -2,9 +2,10 @@
 	@RecipeId UNIQUEIDENTIFIER,
 	@FoodItemId UNIQUEIDENTIFIER,
 	@Name NVARCHAR(250),
-	@QuantityInGramsOrMl INT
+	@QuantityInGramsOrMl INT,
+	@QuantityInPcs INT
 AS
 INSERT INTO Ingredients
-(Id, RecipeId, FoodItemId, Name, QuantityInGramsOrMl, DateAdded)
+(Id, RecipeId, FoodItemId, Name, QuantityInGramsOrMl,QuantityInPcs, DateAdded)
 values
-(NEWID(), @RecipeId, @FoodItemId, @Name, @QuantityInGramsOrMl, SYSUTCDATETIME())
+(NEWID(), @RecipeId, @FoodItemId, @Name, @QuantityInGramsOrMl, @QuantityInPcs, SYSUTCDATETIME())

@@ -13,8 +13,8 @@ namespace Models
         public string? Link { get; set; }
         public int? QuantityInPackInGramsOrMl { get; set; }
         public int? QuantityInPcs { get; set; }
-        public List<Ingredient>? UsedAsIngredient { get; set; }
         public DateTime DateAdded { get; set; }
+        public List<Ingredient>? UsedAsIngredient { get; set; }
 
     }
 }

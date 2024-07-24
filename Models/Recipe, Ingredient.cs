@@ -18,7 +18,7 @@
         public Guid FoodItemId { get; set; }
         public string Name { get; set; }
         public int? QuantityInGramsOrMl { get; set; }
-        public int? QuantityInPc { get; set; }
+        public int? QuantityInPcs { get; set; }
         public DateTime DateAdded { get; set; }
     }
 }

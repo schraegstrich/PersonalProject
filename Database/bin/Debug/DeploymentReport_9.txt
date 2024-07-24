@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Rename
+       [dbo].[Ingredients].[QuantityInPcs] (Column)
+     Alter
+       [dbo].[GET_IngredientById] (Procedure)
+       [dbo].[GET_IngredientsByFoodItemId] (Procedure)
+       [dbo].[GET_IngredientsByRecipeId] (Procedure)
+       [dbo].[INSERT_Ingredient] (Procedure)
+       [dbo].[UPDATE_IngredientById] (Procedure)
+
+** Supporting actions

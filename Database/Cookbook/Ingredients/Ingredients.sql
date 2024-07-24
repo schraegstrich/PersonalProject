@@ -5,7 +5,7 @@ CREATE TABLE [dbo].[Ingredients]
 	[FoodItemId] UNIQUEIDENTIFIER NOT NULL,
 	[Name] NVARCHAR(250) NOT NULL,
 	[QuantityInGramsOrMl] INT,
-	[QuantityInPc] INT,
+	[QuantityInPcs] INT,
 	[DateAdded] DATETIME NOT NULL,
 	FOREIGN KEY ([RecipeId]) REFERENCES [dbo].[Recipes]([Id]),
     FOREIGN KEY ([FoodItemId]) REFERENCES [dbo].[FoodItems]([Id])

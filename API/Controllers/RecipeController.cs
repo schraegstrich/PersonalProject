@@ -31,7 +31,6 @@ namespace API.Controllers
                 return BadRequest(500);
             }
         }
-        [HttpPost]
         public async Task<IActionResult> GetRecipeById([FromServices] RecipeServices recipe, [FromQuery] Guid id)
         {
             try

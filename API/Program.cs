@@ -2,6 +2,7 @@ using System.Text;
 
 using System.Data.SqlClient;
 using Services;
+using API.Services;
 
 SqlConnectionStringBuilder connectionStringBuilder = new()
 {
@@ -20,6 +21,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddScoped<RecipeServices>();
+builder.Services.AddScoped<IngredientServices>();
+builder.Services.AddScoped<FoodItemServices>();
 
 var app = builder.Build();
 

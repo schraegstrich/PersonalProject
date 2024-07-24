@@ -7,4 +7,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="Link" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="db2f2e04-04e4-4872-a4f5-1b34462bec6a" ChangeDateTime="07/24/2024 10:57:26" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Ingredients].[QuantityInPc]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Ingredients]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="QuantityInPcs" />
+  </Operation>
 </Operations>
