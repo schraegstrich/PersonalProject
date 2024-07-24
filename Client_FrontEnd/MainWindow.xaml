@@ -5,8 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Client_FrontEnd"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="612" Width="960" ResizeMode="CanResizeWithGrip" SizeToContent="WidthAndHeight">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <StackPanel HorizontalAlignment="Left">
+
+                <Button x:Name="homeButton" Content="Home" Height="68" Width="200" FontSize="22" Margin="10,0,0,10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+                <Button x:Name="manageRecipiesButton" Content="Recipes" Height="68" Width="200" FontSize="22" Margin="10,0,0,10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Button x:Name="manageFridgeButton" Content="Fridge and pantry" Height="68" Width="200" FontSize="22" Click="manageFridgeButton_Click" Margin="10,0,0,10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            </StackPanel>
+            <Frame x:Name="pageFrame" Source="/WelcomePage.xaml" VerticalAlignment="Top" MinHeight="305" Height="Auto" Width="747" NavigationUIVisibility="Hidden" Navigated="pageFrame_Navigated"/>
+
+
+        </StackPanel>
+        <Label Content="FridgeBot" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="48" Foreground="#FF2B9086"/>
 
     </Grid>
 </Window>

@@ -1,0 +1,18 @@
+﻿<Page x:Class="Client_FrontEnd.WelcomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Client_FrontEnd"
+      mc:Ignorable="d" 
+      d:DesignHeight="350" d:DesignWidth="580"
+      Title="WelcomePage">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Margin="8,12,0,188">
+            <TextBlock x:Name="welcomeMessage" Text="Hello, Name!" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="welcomeMessage2" Text="What do you want to cook?" Margin="30"/>
+        </StackPanel>
+        <DataGrid x:Name="recipesData" Margin="10,145,14,10"/>
+    </Grid>
+</Page>

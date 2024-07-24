@@ -20,5 +20,14 @@ namespace Client_FrontEnd
         {
             InitializeComponent();
         }
+
+        private void pageFrame_Navigated(object sender, NavigationEventArgs e)
+        {
+        }
+
+        private void manageFridgeButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
