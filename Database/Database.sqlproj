@@ -60,6 +60,7 @@
     <Folder Include="Cookbook" />
     <Folder Include="Cookbook\Ingredients" />
     <Folder Include="Cookbook\Recipes" />
+    <Folder Include="Sensor" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Fridge or Pantry\FoodItems.sql" />
@@ -81,6 +82,8 @@
     <Build Include="Fridge or Pantry\GET_FoodItemById.sql" />
     <Build Include="Cookbook\Recipes\GET_RecipeById.sql" />
     <Build Include="Cookbook\Ingredients\GET_IngredientById.sql" />
+    <Build Include="Sensor\SensorData.sql" />
+    <Build Include="Sensor\INSERT_DataEntry.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Database.refactorlog" />

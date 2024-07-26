@@ -1,0 +1,38 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[FoodItems] (Table)
+       [dbo].[Ingredients] (Table)
+       [dbo].[Recipes] (Table)
+       [dbo].[SensorData] (Table)
+       Foreign Key: unnamed constraint on [dbo].[Ingredients] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Ingredients] (Foreign Key)
+       [dbo].[FK_FoodItem] (Foreign Key)
+       [dbo].[DELETE_FoodItemById] (Procedure)
+       [dbo].[DELETE_IngredientById] (Procedure)
+       [dbo].[DELETE_RecipeById] (Procedure)
+       [dbo].[GET_AllFoodItems] (Procedure)
+       [dbo].[GET_AllRecipies] (Procedure)
+       [dbo].[GET_FoodItemById] (Procedure)
+       [dbo].[GET_IngredientById] (Procedure)
+       [dbo].[GET_IngredientsByFoodItemId] (Procedure)
+       [dbo].[GET_IngredientsByRecipeId] (Procedure)
+       [dbo].[GET_RecipeById] (Procedure)
+       [dbo].[INSERT_DataEntry] (Procedure)
+       [dbo].[INSERT_FoodItem] (Procedure)
+       [dbo].[INSERT_Ingredient] (Procedure)
+       [dbo].[INSERT_Recipe] (Procedure)
+       [dbo].[UPDATE_FoodItemById] (Procedure)
+       [dbo].[UPDATE_IngredientById] (Procedure)
+       [dbo].[UPDATE_RecipeById] (Procedure)
+
+** Supporting actions

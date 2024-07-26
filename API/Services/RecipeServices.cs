@@ -90,7 +90,7 @@ namespace Services
                 command.CommandType = System.Data.CommandType.StoredProcedure;
 
                 command.Parameters.AddWithValue("Name", value: recipe.Name);
-                command.Parameters.AddWithValue("Description", recipe.Description == null ? DBNull.Value : recipe.Description);
+                command.Parameters.AddWithValue( "Description", recipe.Description == null ? DBNull.Value : recipe.Description);
                 command.Parameters.AddWithValue("CookingTimeInMinutes", recipe.CookingTimeInMinutes);
 
 

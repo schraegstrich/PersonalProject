@@ -5,11 +5,11 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{9FB63FA1-E069-4106-81CC-CDB6A02F3112}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{26799BB2-4D4F-4421-83EC-3A77DB4F8296}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{26799BB2-4D4F-4421-83EC-3A77DB4F8296}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{334A86F5-9E05-4A55-9307-B9D91D4526D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client_FrontEnd", "Client_FrontEnd\Client_FrontEnd.csproj", "{F762D1D8-3B98-4CDA-9D6C-88483A225F80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client_FrontEnd", "Client_FrontEnd\Client_FrontEnd.csproj", "{F762D1D8-3B98-4CDA-9D6C-88483A225F80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

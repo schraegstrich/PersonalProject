@@ -3,7 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Personal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\SourceServer\\d3900aec529a2290e2208ade55517daf8312c6b3ed97eb73abec52d45a50d90c\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\ValueTask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FB63FA1-E069-4106-81CC-CDB6A02F3112}|API\\API.csproj|c:\\users\\user\\desktop\\personal\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9FB63FA1-E069-4106-81CC-CDB6A02F3112}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB63FA1-E069-4106-81CC-CDB6A02F3112}|API\\API.csproj|c:\\users\\user\\desktop\\personal\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FB63FA1-E069-4106-81CC-CDB6A02F3112}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB63FA1-E069-4106-81CC-CDB6A02F3112}|API\\API.csproj|c:\\users\\user\\desktop\\personal\\api\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FB63FA1-E069-4106-81CC-CDB6A02F3112}|API\\API.csproj|solutionrelative:api\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB63FA1-E069-4106-81CC-CDB6A02F3112}|API\\API.csproj|c:\\users\\user\\desktop\\personal\\api\\services\\fooditemservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FB63FA1-E069-4106-81CC-CDB6A02F3112}|API\\API.csproj|solutionrelative:api\\services\\fooditemservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -16,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -50,14 +63,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ValueTask.cs",
-              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\SourceServer\\d3900aec529a2290e2208ade55517daf8312c6b3ed97eb73abec52d45a50d90c\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\ValueTask.cs",
-              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\SourceServer\\d3900aec529a2290e2208ade55517daf8312c6b3ed97eb73abec52d45a50d90c\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\ValueTask.cs",
-              "ToolTip": "C:\\Users\\user\\AppData\\Local\\SourceServer\\d3900aec529a2290e2208ade55517daf8312c6b3ed97eb73abec52d45a50d90c\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\ValueTask.cs",
-              "RelativeToolTip": "..\\..\\AppData\\Local\\SourceServer\\d3900aec529a2290e2208ade55517daf8312c6b3ed97eb73abec52d45a50d90c\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\ValueTask.cs",
-              "ViewState": "AQIAABwDAAAAAAAAAAAowCsDAAAUAAAA",
+              "Title": "API.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\API\\API.csproj",
+              "RelativeDocumentMoniker": "API\\API.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\API\\API.csproj",
+              "RelativeToolTip": "API\\API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-25T10:01:15.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T22:55:12.937Z",
+              "WhenOpened": "2024-07-25T21:41:09.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\API\\Controllers\\RecipeController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\RecipeController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\API\\Controllers\\RecipeController.cs",
+              "RelativeToolTip": "API\\Controllers\\RecipeController.cs",
+              "ViewState": "AQIAAC0AAAAAYWZmZmYPwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T21:52:36.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FoodItemServices.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\API\\Services\\FoodItemServices.cs",
+              "RelativeDocumentMoniker": "API\\Services\\FoodItemServices.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\API\\Services\\FoodItemServices.cs",
+              "RelativeToolTip": "API\\Services\\FoodItemServices.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAuwHEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T10:10:38.621Z",
               "EditorCaption": ""
             },
             {
@@ -75,20 +127,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "RecipeClient.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\RecipeClient.cs",
               "RelativeDocumentMoniker": "Client_FrontEnd\\RecipeClient.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\RecipeClient.cs",
               "RelativeToolTip": "Client_FrontEnd\\RecipeClient.cs",
-              "ViewState": "AQIAAAsAAAAwmZmZmZk4wBoAAAAgAAAA",
+              "ViewState": "AQIAAAwAAADAZGZmZmYewBoAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T22:34:11.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "WelcomePage.xaml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\WelcomePage.xaml",
               "RelativeDocumentMoniker": "Client_FrontEnd\\WelcomePage.xaml",
@@ -100,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Client_FrontEnd\\MainWindow.xaml",
@@ -112,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "WelcomePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\WelcomePage.xaml.cs",
               "RelativeDocumentMoniker": "Client_FrontEnd\\WelcomePage.xaml.cs",
