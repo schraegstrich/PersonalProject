@@ -29,5 +29,16 @@ namespace Client_FrontEnd
         {
 
         }
+
+        private void homeButton_Click(object sender, RoutedEventArgs e)
+        {
+            pageFrame.Content = new WelcomePage();
+            
+        }
+
+        private void manageRecipiesButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

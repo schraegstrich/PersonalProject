@@ -9,10 +9,9 @@
       Title="WelcomePage">
 
     <Grid>
-        <StackPanel HorizontalAlignment="Left" Margin="8,12,0,188">
-            <TextBlock x:Name="welcomeMessage" Text="Hello, Name!" HorizontalAlignment="Center"/>
-            <TextBlock x:Name="welcomeMessage2" Text="What do you want to cook?" Margin="30"/>
+        <StackPanel HorizontalAlignment="Left" Margin="143,-1,0,201">
+            <TextBlock x:Name="welcomeMessage" Text="What do you want to cook?" HorizontalAlignment="Center" Margin="30" FontSize="20"/>
         </StackPanel>
-        <DataGrid x:Name="recipesData" Margin="10,145,14,10"/>
+        <DataGrid x:Name="recipesData" Margin="10,145,14,10" SelectionChanged="recipesData_SelectionChanged"/>
     </Grid>
 </Page>

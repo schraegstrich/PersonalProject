@@ -15,12 +15,12 @@
         <StackPanel Orientation="Horizontal" Grid.Row="1">
             <StackPanel HorizontalAlignment="Left">
 
-                <Button x:Name="homeButton" Content="Home" Height="68" Width="200" FontSize="22" Margin="10,0,0,10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Button x:Name="homeButton" Content="Home" Height="68" Width="200" FontSize="22" Margin="10,0,0,10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="homeButton_Click"/>
 
-                <Button x:Name="manageRecipiesButton" Content="Recipes" Height="68" Width="200" FontSize="22" Margin="10,0,0,10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                <Button x:Name="manageRecipiesButton" Content="Recipes" Height="68" Width="200" FontSize="22" Margin="10,0,0,10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="manageRecipiesButton_Click"/>
                 <Button x:Name="manageFridgeButton" Content="Fridge and pantry" Height="68" Width="200" FontSize="22" Click="manageFridgeButton_Click" Margin="10,0,0,10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
             </StackPanel>
-            <Frame x:Name="pageFrame" Source="/WelcomePage.xaml" VerticalAlignment="Top" MinHeight="305" Height="Auto" Width="747" NavigationUIVisibility="Hidden" Navigated="pageFrame_Navigated"/>
+            <Frame x:Name="pageFrame" Source="/WelcomePage.xaml" VerticalAlignment="Top" MinHeight="305" Height="435" Width="747" NavigationUIVisibility="Hidden" Navigated="pageFrame_Navigated"/>
 
 
         </StackPanel>

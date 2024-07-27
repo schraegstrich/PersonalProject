@@ -23,7 +23,8 @@ builder.Services.AddControllers();
 builder.Services.AddScoped<RecipeServices>();
 builder.Services.AddScoped<IngredientServices>();
 builder.Services.AddScoped<FoodItemServices>();
-builder.Services.AddScoped<SensorInteractorServices>();
+builder.Services.AddScoped<SensorInsertService>();
+builder.Services.AddScoped<SensorDBServices>();
 
 var app = builder.Build();
 

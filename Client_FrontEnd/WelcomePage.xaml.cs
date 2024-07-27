@@ -34,5 +34,13 @@ namespace Client_FrontEnd
             List<Recipe> recipes = await _client.GetAllRecipesAsync();
             recipesData.ItemsSource = recipes;
         }
+
+        private void recipesData_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            ToCookPage page = new ToCookPage((Recipe)recipesData.SelectedItem);
+            NavigationService.Navigate(page);
+
+
+        }
     }
 }

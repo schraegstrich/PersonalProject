@@ -46,3 +46,6 @@ C:\Users\user\Desktop\Personal\Client_FrontEnd\bin\Debug\net8.0-windows\runtimes
 C:\Users\user\Desktop\Personal\Client_FrontEnd\bin\Debug\net8.0-windows\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
 C:\Users\user\Desktop\Personal\Client_FrontEnd\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.IO.Ports.dll
 C:\Users\user\Desktop\Personal\Client_FrontEnd\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.IO.Ports.dll
+C:\Users\user\Desktop\Personal\Client_FrontEnd\obj\Debug\net8.0-windows\ToCookPage.g.cs
+C:\Users\user\Desktop\Personal\Client_FrontEnd\obj\Debug\net8.0-windows\ToCookPage.baml
+C:\Users\user\Desktop\Personal\Client_FrontEnd\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
