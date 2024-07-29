@@ -27,7 +27,7 @@ namespace Client_FrontEnd
 
         private void manageFridgeButton_Click(object sender, RoutedEventArgs e)
         {
-
+            pageFrame.Content = new ManageFoodItemsPage();
         }
 
         private void homeButton_Click(object sender, RoutedEventArgs e)

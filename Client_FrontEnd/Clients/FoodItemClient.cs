@@ -54,5 +54,30 @@ namespace Client_FrontEnd.Clients
                 throw new Exception("Error retrieving items");
             }
         }
+
+        public async Task<bool> InsertFoodItemAsync(FoodItem item)
+        {
+            string apiUrl = $"{_baseUri}InsertFoodItem";
+            var json = JsonSerializer.Serialize(item);
+            var data = new StringContent(json, Encoding.UTF8, "application/json");
+            var response = await base.PostAsync(apiUrl, data);
+            return response.IsSuccessStatusCode;
+        }
+
+        public async Task<bool> UpdateFoodItemAsync(FoodItem item)
+        {
+            string apiUrl = $"{_baseUri}UpdateFoodItemById";
+            var json = JsonSerializer.Serialize(item);
+            var data = new StringContent(json, Encoding.UTF8, "application/json");
+            var response = await base.PostAsync(apiUrl, data);
+            return response.IsSuccessStatusCode;
+        }
+
+        public async Task<bool> DeleteFoodItemAsync(Guid id)
+        {
+            string apiUrl = $"{_baseUri}DeleteFoodItemById?id={id}";
+            var response = await base.DeleteAsync(apiUrl);
+            return response.IsSuccessStatusCode;
+        }
     }
 }

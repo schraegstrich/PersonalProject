@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\user\Desktop\Personal\Client_FrontEnd\App.xaml
-8553054173
+112104175704
 
-181309551610
+21-1461326996
 338318527289
-AddIngredientWindow.xaml;AddRecipeWindow.xaml;MainWindow.xaml;ManageRecipiesPage.xaml;ToCookPage.xaml;UpdateOrDeleteIngredientWindow.xaml;UpdateOrDeleteRecipePage.xaml;WelcomePage.xaml;
+FoodItemManagement\AddFoodItemWindow.xaml;FoodItemManagement\ManageFoodItemsPage.xaml;FoodItemManagement\UpdateOrDeleteFoodItemWindow.xaml;IngredientManagement\AddIngredientWindow.xaml;IngredientManagement\UpdateOrDeleteIngredientWindow.xaml;MainWindow.xaml;RecipeManagement\AddRecipeWindow.xaml;RecipeManagement\ManageRecipiesPage.xaml;RecipeManagement\UpdateOrDeleteRecipePage.xaml;ToCookPage.xaml;WelcomePage.xaml;
 
-True
+False
 

@@ -7,22 +7,31 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="AddIngredientWindow.xaml.cs">
+    <Compile Update="FoodItemManagement\AddFoodItemWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="AddRecipeWindow.xaml.cs">
+    <Compile Update="FoodItemManagement\ManageFoodItemsPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ManageRecipiesPage.xaml.cs">
+    <Compile Update="IngredientManagement\AddIngredientWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RecipeManagement\AddRecipeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RecipeManagement\ManageRecipiesPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ToCookPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UpdateOrDeleteIngredientWindow.xaml.cs">
+    <Compile Update="IngredientManagement\UpdateOrDeleteIngredientWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UpdateOrDeleteRecipePage.xaml.cs">
+    <Compile Update="RecipeManagement\UpdateOrDeleteRecipePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FoodItemManagement\UpdateOrDeleteFoodItemWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="WelcomePage.xaml.cs">
@@ -30,25 +39,34 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="AddIngredientWindow.xaml">
+    <Page Update="FoodItemManagement\AddFoodItemWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="AddRecipeWindow.xaml">
+    <Page Update="FoodItemManagement\ManageFoodItemsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="IngredientManagement\AddIngredientWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RecipeManagement\AddRecipeWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="ManageRecipiesPage.xaml">
+    <Page Update="RecipeManagement\ManageRecipiesPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ToCookPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UpdateOrDeleteIngredientWindow.xaml">
+    <Page Update="IngredientManagement\UpdateOrDeleteIngredientWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UpdateOrDeleteRecipePage.xaml">
+    <Page Update="RecipeManagement\UpdateOrDeleteRecipePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FoodItemManagement\UpdateOrDeleteFoodItemWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="WelcomePage.xaml">

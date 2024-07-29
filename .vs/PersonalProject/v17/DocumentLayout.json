@@ -3,8 +3,79 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Personal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\addingredientwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\addingredientwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\fooditemmanagement\\updateordeletefooditemwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\fooditemmanagement\\updateordeletefooditemwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\client_frontend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\client_frontend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\clients\\recipeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\clients\\recipeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\SourceServer\\d3900aec529a2290e2208ade55517daf8312c6b3ed97eb73abec52d45a50d90c\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\ValueTask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\fooditemmanagement\\managefooditemspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\fooditemmanagement\\managefooditemspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\ingredientmanagement\\updateordeleteingredientwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\ingredientmanagement\\updateordeleteingredientwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\fooditemmanagement\\managefooditemspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\fooditemmanagement\\managefooditemspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\recipemanagement\\managerecipiespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\recipemanagement\\managerecipiespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\fooditemmanagement\\updateordeletefooditemwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\fooditemmanagement\\updateordeletefooditemwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\fooditemmanagement\\addfooditemwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\fooditemmanagement\\addfooditemwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26799BB2-4D4F-4421-83EC-3A77DB4F8296}|Models\\Models.csproj|c:\\users\\user\\desktop\\personal\\models\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26799BB2-4D4F-4421-83EC-3A77DB4F8296}|Models\\Models.csproj|solutionrelative:models\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\ingredientmanagement\\addingredientwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\ingredientmanagement\\addingredientwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\clients\\ingredientclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\clients\\ingredientclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\recipemanagement\\addrecipewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\recipemanagement\\addrecipewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\ingredientmanagement\\addingredientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\ingredientmanagement\\addingredientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\recipemanagement\\addrecipewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\recipemanagement\\addrecipewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26799BB2-4D4F-4421-83EC-3A77DB4F8296}|Models\\Models.csproj|c:\\users\\user\\desktop\\personal\\models\\recipe, ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,56 +90,8 @@
       "RelativeMoniker": "D:0:0:{9FB63FA1-E069-4106-81CC-CDB6A02F3112}|API\\API.csproj|solutionrelative:api\\services\\ingredientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\clients\\ingredientclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\clients\\ingredientclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\managerecipiespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\managerecipiespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\addrecipewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\addrecipewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\updateordeleterecipepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\updateordeleterecipepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\addingredientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\addingredientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\clients\\recipeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\clients\\recipeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\updateordeleteingredientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\updateordeleteingredientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\clients\\fooditemclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\clients\\fooditemclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\managerecipiespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\managerecipiespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\addrecipewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\addrecipewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\updateordeleterecipepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\updateordeleterecipepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9FB63FA1-E069-4106-81CC-CDB6A02F3112}|API\\API.csproj|c:\\users\\user\\desktop\\personal\\api\\services\\sensorinsertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FB63FA1-E069-4106-81CC-CDB6A02F3112}|API\\API.csproj|solutionrelative:api\\services\\sensorinsertservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26799BB2-4D4F-4421-83EC-3A77DB4F8296}|Models\\Models.csproj|c:\\users\\user\\desktop\\personal\\models\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26799BB2-4D4F-4421-83EC-3A77DB4F8296}|Models\\Models.csproj|solutionrelative:models\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FB63FA1-E069-4106-81CC-CDB6A02F3112}|API\\API.csproj|c:\\users\\user\\desktop\\personal\\api\\services\\fooditemservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,20 +118,8 @@
       "RelativeMoniker": "D:0:0:{9FB63FA1-E069-4106-81CC-CDB6A02F3112}|API\\API.csproj|solutionrelative:api\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\tocookpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\tocookpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|c:\\users\\user\\desktop\\personal\\client_frontend\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F762D1D8-3B98-4CDA-9D6C-88483A225F80}|Client_FrontEnd\\Client_FrontEnd.csproj|solutionrelative:client_frontend\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\RecipeClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -122,7 +133,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -138,301 +149,236 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddIngredientWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\AddIngredientWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Client_FrontEnd\\AddIngredientWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\AddIngredientWindow.xaml.cs",
-              "RelativeToolTip": "Client_FrontEnd\\AddIngredientWindow.xaml.cs",
-              "ViewState": "AQIAACQAAAAABAAAAMAgwDgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T00:34:15.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IngredientServices.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\API\\Services\\IngredientServices.cs",
-              "RelativeDocumentMoniker": "API\\Services\\IngredientServices.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\API\\Services\\IngredientServices.cs",
-              "RelativeToolTip": "API\\Services\\IngredientServices.cs",
-              "ViewState": "AQIAADkAAACAzMzMzEwdwE0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T01:49:23.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IngredientController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\API\\Controllers\\IngredientController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\IngredientController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\API\\Controllers\\IngredientController.cs",
-              "RelativeToolTip": "API\\Controllers\\IngredientController.cs",
-              "ViewState": "AQIAAAwAAACQzMzMzMw7wBoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T01:49:49.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Recipe, Ingredient.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Models\\Recipe, Ingredient.cs",
-              "RelativeDocumentMoniker": "Models\\Recipe, Ingredient.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Models\\Recipe, Ingredient.cs",
-              "RelativeToolTip": "Models\\Recipe, Ingredient.cs",
-              "ViewState": "AQIAAAgAAAAA9P////8HwBYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T17:00:29.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ManageRecipiesPage.xaml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\ManageRecipiesPage.xaml",
-              "RelativeDocumentMoniker": "Client_FrontEnd\\ManageRecipiesPage.xaml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\ManageRecipiesPage.xaml",
-              "RelativeToolTip": "Client_FrontEnd\\ManageRecipiesPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-28T16:39:52.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddRecipeWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\AddRecipeWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Client_FrontEnd\\AddRecipeWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\AddRecipeWindow.xaml.cs",
-              "RelativeToolTip": "Client_FrontEnd\\AddRecipeWindow.xaml.cs",
-              "ViewState": "AQIAACYAAACAAAAAAMAtwBsAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T22:12:04.688Z",
+              "Title": "Client_FrontEnd",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\Client_FrontEnd.csproj",
+              "RelativeDocumentMoniker": "Client_FrontEnd\\Client_FrontEnd.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\Client_FrontEnd.csproj",
+              "RelativeToolTip": "Client_FrontEnd\\Client_FrontEnd.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-29T14:30:08.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IngredientClient.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\Clients\\IngredientClient.cs",
-              "RelativeDocumentMoniker": "Client_FrontEnd\\Clients\\IngredientClient.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\Clients\\IngredientClient.cs",
-              "RelativeToolTip": "Client_FrontEnd\\Clients\\IngredientClient.cs",
-              "ViewState": "AQIAABYAAAAA4JqZmZmpvycAAAAJAAAA",
+              "Title": "ManageFoodItemsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\FoodItemManagement\\ManageFoodItemsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Client_FrontEnd\\FoodItemManagement\\ManageFoodItemsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\FoodItemManagement\\ManageFoodItemsPage.xaml.cs",
+              "RelativeToolTip": "Client_FrontEnd\\FoodItemManagement\\ManageFoodItemsPage.xaml.cs",
+              "ViewState": "AQIAABkAAAAAPDMzMzPjvycAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T17:16:28.441Z",
+              "WhenOpened": "2024-07-29T18:17:13.784Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UpdateOrDeleteRecipePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\UpdateOrDeleteRecipePage.xaml.cs",
-              "RelativeDocumentMoniker": "Client_FrontEnd\\UpdateOrDeleteRecipePage.xaml.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\UpdateOrDeleteRecipePage.xaml.cs",
-              "RelativeToolTip": "Client_FrontEnd\\UpdateOrDeleteRecipePage.xaml.cs",
-              "ViewState": "AQIAABAAAAAANDMzMzMrwH4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T20:30:54.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AddIngredientWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\AddIngredientWindow.xaml",
-              "RelativeDocumentMoniker": "Client_FrontEnd\\AddIngredientWindow.xaml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\AddIngredientWindow.xaml",
-              "RelativeToolTip": "Client_FrontEnd\\AddIngredientWindow.xaml",
+              "DocumentIndex": 10,
+              "Title": "UpdateOrDeleteFoodItemWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\FoodItemManagement\\UpdateOrDeleteFoodItemWindow.xaml",
+              "RelativeDocumentMoniker": "Client_FrontEnd\\FoodItemManagement\\UpdateOrDeleteFoodItemWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\FoodItemManagement\\UpdateOrDeleteFoodItemWindow.xaml",
+              "RelativeToolTip": "Client_FrontEnd\\FoodItemManagement\\UpdateOrDeleteFoodItemWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-29T00:13:11.087Z",
+              "WhenOpened": "2024-07-29T17:50:49.476Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
+              "Title": "UpdateOrDeleteFoodItemWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\FoodItemManagement\\UpdateOrDeleteFoodItemWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Client_FrontEnd\\FoodItemManagement\\UpdateOrDeleteFoodItemWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\FoodItemManagement\\UpdateOrDeleteFoodItemWindow.xaml.cs",
+              "RelativeToolTip": "Client_FrontEnd\\FoodItemManagement\\UpdateOrDeleteFoodItemWindow.xaml.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAAA7wJ8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T17:42:51.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RecipeClient.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\Clients\\RecipeClient.cs",
               "RelativeDocumentMoniker": "Client_FrontEnd\\Clients\\RecipeClient.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\Clients\\RecipeClient.cs",
               "RelativeToolTip": "Client_FrontEnd\\Clients\\RecipeClient.cs",
-              "ViewState": "AQIAABIAAADAZmZmZuYVwCsAAAAJAAAA",
+              "ViewState": "AQIAACQAAABAzczMzIwowDoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-28T20:36:09.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UpdateOrDeleteIngredientWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\UpdateOrDeleteIngredientWindow.xaml",
-              "RelativeDocumentMoniker": "Client_FrontEnd\\UpdateOrDeleteIngredientWindow.xaml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\UpdateOrDeleteIngredientWindow.xaml",
-              "RelativeToolTip": "Client_FrontEnd\\UpdateOrDeleteIngredientWindow.xaml",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Client_FrontEnd\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\MainWindow.xaml",
+              "RelativeToolTip": "Client_FrontEnd\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-29T00:15:34.351Z",
+              "WhenOpened": "2024-07-24T22:18:24.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FoodItemClient.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\Clients\\FoodItemClient.cs",
-              "RelativeDocumentMoniker": "Client_FrontEnd\\Clients\\FoodItemClient.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\Clients\\FoodItemClient.cs",
-              "RelativeToolTip": "Client_FrontEnd\\Clients\\FoodItemClient.cs",
-              "ViewState": "AQIAAAkAAABAaGZmZmYewDYAAAANAAAA",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Client_FrontEnd\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Client_FrontEnd\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABAAAADcMjMzMzM7wBwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T20:36:22.096Z",
+              "WhenOpened": "2024-07-24T22:42:29.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
+              "Title": "UpdateOrDeleteIngredientWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\IngredientManagement\\UpdateOrDeleteIngredientWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Client_FrontEnd\\IngredientManagement\\UpdateOrDeleteIngredientWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\IngredientManagement\\UpdateOrDeleteIngredientWindow.xaml.cs",
+              "RelativeToolTip": "Client_FrontEnd\\IngredientManagement\\UpdateOrDeleteIngredientWindow.xaml.cs",
+              "ViewState": "AQIAAD0AAAAAl5mZmZkjwEYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T18:08:52.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ValueTask.cs",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\SourceServer\\d3900aec529a2290e2208ade55517daf8312c6b3ed97eb73abec52d45a50d90c\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\ValueTask.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\SourceServer\\d3900aec529a2290e2208ade55517daf8312c6b3ed97eb73abec52d45a50d90c\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\ValueTask.cs",
+              "ToolTip": "C:\\Users\\user\\AppData\\Local\\SourceServer\\d3900aec529a2290e2208ade55517daf8312c6b3ed97eb73abec52d45a50d90c\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\ValueTask.cs",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\SourceServer\\d3900aec529a2290e2208ade55517daf8312c6b3ed97eb73abec52d45a50d90c\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\ValueTask.cs",
+              "ViewState": "AQIAABwDAAAAAAAAAAAswCsDAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T18:14:14.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ManageRecipiesPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\ManageRecipiesPage.xaml.cs",
-              "RelativeDocumentMoniker": "Client_FrontEnd\\ManageRecipiesPage.xaml.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\ManageRecipiesPage.xaml.cs",
-              "RelativeToolTip": "Client_FrontEnd\\ManageRecipiesPage.xaml.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAAAC4AAAAjAAAA",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\RecipeManagement\\ManageRecipiesPage.xaml.cs",
+              "RelativeDocumentMoniker": "Client_FrontEnd\\RecipeManagement\\ManageRecipiesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\RecipeManagement\\ManageRecipiesPage.xaml.cs",
+              "RelativeToolTip": "Client_FrontEnd\\RecipeManagement\\ManageRecipiesPage.xaml.cs",
+              "ViewState": "AQIAABoAAACA/v////8TwCcAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T00:05:24.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AddRecipeWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\AddRecipeWindow.xaml",
-              "RelativeDocumentMoniker": "Client_FrontEnd\\AddRecipeWindow.xaml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\AddRecipeWindow.xaml",
-              "RelativeToolTip": "Client_FrontEnd\\AddRecipeWindow.xaml",
+              "DocumentIndex": 8,
+              "Title": "ManageFoodItemsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\FoodItemManagement\\ManageFoodItemsPage.xaml",
+              "RelativeDocumentMoniker": "Client_FrontEnd\\FoodItemManagement\\ManageFoodItemsPage.xaml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\FoodItemManagement\\ManageFoodItemsPage.xaml",
+              "RelativeToolTip": "Client_FrontEnd\\FoodItemManagement\\ManageFoodItemsPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-28T22:12:02.739Z",
+              "WhenOpened": "2024-07-29T18:19:25.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "SensorDataEntry.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Models\\SensorDataEntry.cs",
-              "RelativeDocumentMoniker": "Models\\SensorDataEntry.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Models\\SensorDataEntry.cs",
-              "RelativeToolTip": "Models\\SensorDataEntry.cs",
-              "ViewState": "AQIAAAEAAAAAMzMzMzPjvwgAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T22:25:52.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "SensorInsertService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\API\\Services\\SensorInsertService.cs",
-              "RelativeDocumentMoniker": "API\\Services\\SensorInsertService.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\API\\Services\\SensorInsertService.cs",
-              "RelativeToolTip": "API\\Services\\SensorInsertService.cs",
-              "ViewState": "AQIAAEAAAAAAWmZmZqYpwE8AAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T22:55:20.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UpdateOrDeleteRecipePage.xaml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\UpdateOrDeleteRecipePage.xaml",
-              "RelativeDocumentMoniker": "Client_FrontEnd\\UpdateOrDeleteRecipePage.xaml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\UpdateOrDeleteRecipePage.xaml",
-              "RelativeToolTip": "Client_FrontEnd\\UpdateOrDeleteRecipePage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-28T18:13:37.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "SensorController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\API\\Controllers\\SensorController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\SensorController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\API\\Controllers\\SensorController.cs",
-              "RelativeToolTip": "API\\Controllers\\SensorController.cs",
-              "ViewState": "AQIAABYAAAAAmJmZmZktwC0AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T22:56:46.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 12,
               "Title": "FoodItem.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Models\\FoodItem.cs",
               "RelativeDocumentMoniker": "Models\\FoodItem.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Models\\FoodItem.cs",
               "RelativeToolTip": "Models\\FoodItem.cs",
-              "ViewState": "AQIAAAUAAADIY2ZmZmYkwCEAAAAFAAAA",
+              "ViewState": "AQIAAAoAAABg/v////80wBIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-28T22:25:49.421Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddFoodItemWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\FoodItemManagement\\AddFoodItemWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Client_FrontEnd\\FoodItemManagement\\AddFoodItemWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\FoodItemManagement\\AddFoodItemWindow.xaml.cs",
+              "RelativeToolTip": "Client_FrontEnd\\FoodItemManagement\\AddFoodItemWindow.xaml.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAAAHQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T17:55:53.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddIngredientWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\IngredientManagement\\AddIngredientWindow.xaml",
+              "RelativeDocumentMoniker": "Client_FrontEnd\\IngredientManagement\\AddIngredientWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\IngredientManagement\\AddIngredientWindow.xaml",
+              "RelativeToolTip": "Client_FrontEnd\\IngredientManagement\\AddIngredientWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-29T00:13:11.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IngredientClient.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\Clients\\IngredientClient.cs",
+              "RelativeDocumentMoniker": "Client_FrontEnd\\Clients\\IngredientClient.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\Clients\\IngredientClient.cs",
+              "RelativeToolTip": "Client_FrontEnd\\Clients\\IngredientClient.cs",
+              "ViewState": "AQIAACAAAABgMzMzMzMnwC0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T17:16:28.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddIngredientWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\IngredientManagement\\AddIngredientWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Client_FrontEnd\\IngredientManagement\\AddIngredientWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\IngredientManagement\\AddIngredientWindow.xaml.cs",
+              "RelativeToolTip": "Client_FrontEnd\\IngredientManagement\\AddIngredientWindow.xaml.cs",
+              "ViewState": "AQIAACUAAACAaWZmZuYTwCoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T15:35:23.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddRecipeWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\RecipeManagement\\AddRecipeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Client_FrontEnd\\RecipeManagement\\AddRecipeWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\RecipeManagement\\AddRecipeWindow.xaml.cs",
+              "RelativeToolTip": "Client_FrontEnd\\RecipeManagement\\AddRecipeWindow.xaml.cs",
+              "ViewState": "AQIAAC4AAACgZmZmZmYwwEsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T15:19:29.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "FoodItemServices.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\API\\Services\\FoodItemServices.cs",
-              "RelativeDocumentMoniker": "API\\Services\\FoodItemServices.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\API\\Services\\FoodItemServices.cs",
-              "RelativeToolTip": "API\\Services\\FoodItemServices.cs",
-              "ViewState": "AQIAAHgAAAAAyMzMzEwcwJ0AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T23:26:38.334Z",
+              "Title": "AddRecipeWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\RecipeManagement\\AddRecipeWindow.xaml",
+              "RelativeDocumentMoniker": "Client_FrontEnd\\RecipeManagement\\AddRecipeWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\RecipeManagement\\AddRecipeWindow.xaml",
+              "RelativeToolTip": "Client_FrontEnd\\RecipeManagement\\AddRecipeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-28T22:12:02.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ToCookPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\ToCookPage.xaml.cs",
-              "RelativeDocumentMoniker": "Client_FrontEnd\\ToCookPage.xaml.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\ToCookPage.xaml.cs",
-              "RelativeToolTip": "Client_FrontEnd\\ToCookPage.xaml.cs",
-              "ViewState": "AQIAADIAAAAADjMzMzMDwDcAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T16:51:04.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SensorDBServices.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\API\\Services\\SensorDBServices.cs",
-              "RelativeDocumentMoniker": "API\\Services\\SensorDBServices.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\API\\Services\\SensorDBServices.cs",
-              "RelativeToolTip": "API\\Services\\SensorDBServices.cs",
-              "ViewState": "AQIAAAsAAADAZGZmZmYSwBUAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T23:03:24.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "RecipeController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\API\\Controllers\\RecipeController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\RecipeController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\API\\Controllers\\RecipeController.cs",
-              "RelativeToolTip": "API\\Controllers\\RecipeController.cs",
-              "ViewState": "AQIAAEYAAAAAjpmZmZkZwEwAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T21:09:37.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 18,
               "Title": "WelcomePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\WelcomePage.xaml.cs",
               "RelativeDocumentMoniker": "Client_FrontEnd\\WelcomePage.xaml.cs",
@@ -445,7 +391,137 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IngredientServices.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\API\\Services\\IngredientServices.cs",
+              "RelativeDocumentMoniker": "API\\Services\\IngredientServices.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\API\\Services\\IngredientServices.cs",
+              "RelativeToolTip": "API\\Services\\IngredientServices.cs",
+              "ViewState": "AQIAADkAAACAzMzMzEwdwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T01:49:23.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IngredientController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\API\\Controllers\\IngredientController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\IngredientController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\API\\Controllers\\IngredientController.cs",
+              "RelativeToolTip": "API\\Controllers\\IngredientController.cs",
+              "ViewState": "AQIAAAwAAACQzMzMzMw7wBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T01:49:49.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Recipe, Ingredient.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Models\\Recipe, Ingredient.cs",
+              "RelativeDocumentMoniker": "Models\\Recipe, Ingredient.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Models\\Recipe, Ingredient.cs",
+              "RelativeToolTip": "Models\\Recipe, Ingredient.cs",
+              "ViewState": "AQIAAAgAAAAA9P////8HwBYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T17:00:29.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SensorDataEntry.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Models\\SensorDataEntry.cs",
+              "RelativeDocumentMoniker": "Models\\SensorDataEntry.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Models\\SensorDataEntry.cs",
+              "RelativeToolTip": "Models\\SensorDataEntry.cs",
+              "ViewState": "AQIAAAEAAAAAMzMzMzPjvwgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T22:25:52.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SensorInsertService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\API\\Services\\SensorInsertService.cs",
+              "RelativeDocumentMoniker": "API\\Services\\SensorInsertService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\API\\Services\\SensorInsertService.cs",
+              "RelativeToolTip": "API\\Services\\SensorInsertService.cs",
+              "ViewState": "AQIAAEAAAAAAWmZmZqYpwE8AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T22:55:20.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 24,
+              "Title": "SensorController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\API\\Controllers\\SensorController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\SensorController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\API\\Controllers\\SensorController.cs",
+              "RelativeToolTip": "API\\Controllers\\SensorController.cs",
+              "ViewState": "AQIAABYAAAAAmJmZmZktwC0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T22:56:46.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FoodItemServices.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\API\\Services\\FoodItemServices.cs",
+              "RelativeDocumentMoniker": "API\\Services\\FoodItemServices.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\API\\Services\\FoodItemServices.cs",
+              "RelativeToolTip": "API\\Services\\FoodItemServices.cs",
+              "ViewState": "AQIAAHgAAAAAyMzMzEwcwJ0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T23:26:38.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ToCookPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\ToCookPage.xaml.cs",
+              "RelativeDocumentMoniker": "Client_FrontEnd\\ToCookPage.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\ToCookPage.xaml.cs",
+              "RelativeToolTip": "Client_FrontEnd\\ToCookPage.xaml.cs",
+              "ViewState": "AQIAADIAAAAADjMzMzMDwDcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T16:51:04.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SensorDBServices.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\API\\Services\\SensorDBServices.cs",
+              "RelativeDocumentMoniker": "API\\Services\\SensorDBServices.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\API\\Services\\SensorDBServices.cs",
+              "RelativeToolTip": "API\\Services\\SensorDBServices.cs",
+              "ViewState": "AQIAAAsAAADAZGZmZmYSwBUAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T23:03:24.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\API\\Controllers\\RecipeController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\RecipeController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\API\\Controllers\\RecipeController.cs",
+              "RelativeToolTip": "API\\Controllers\\RecipeController.cs",
+              "ViewState": "AQIAAEYAAAAAjpmZmZkZwEwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T21:09:37.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "ToCookPage.xaml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\ToCookPage.xaml",
               "RelativeDocumentMoniker": "Client_FrontEnd\\ToCookPage.xaml",
@@ -457,32 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Client_FrontEnd\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Client_FrontEnd\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAsAAABYLzMzMzMrwBYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T22:42:29.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Client_FrontEnd\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\MainWindow.xaml",
-              "RelativeToolTip": "Client_FrontEnd\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-24T22:18:24.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "RecipeClient.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Personal\\Client_FrontEnd\\RecipeClient.cs",
               "RelativeDocumentMoniker": "Client_FrontEnd\\RecipeClient.cs",

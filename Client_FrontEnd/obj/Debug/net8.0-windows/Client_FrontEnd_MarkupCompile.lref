@@ -1,11 +1,14 @@
-﻿C:\Users\user\Desktop\Personal\Client_FrontEnd\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+﻿
 
-FC:\Users\user\Desktop\Personal\Client_FrontEnd\AddIngredientWindow.xaml;;
-FC:\Users\user\Desktop\Personal\Client_FrontEnd\AddRecipeWindow.xaml;;
 FC:\Users\user\Desktop\Personal\Client_FrontEnd\MainWindow.xaml;;
-FC:\Users\user\Desktop\Personal\Client_FrontEnd\ManageRecipiesPage.xaml;;
 FC:\Users\user\Desktop\Personal\Client_FrontEnd\ToCookPage.xaml;;
-FC:\Users\user\Desktop\Personal\Client_FrontEnd\UpdateOrDeleteIngredientWindow.xaml;;
-FC:\Users\user\Desktop\Personal\Client_FrontEnd\UpdateOrDeleteRecipePage.xaml;;
 FC:\Users\user\Desktop\Personal\Client_FrontEnd\WelcomePage.xaml;;
+FC:\Users\user\Desktop\Personal\Client_FrontEnd\FoodItemManagement\ManageFoodItemsPage.xaml;;
+FC:\Users\user\Desktop\Personal\Client_FrontEnd\IngredientManagement\AddIngredientWindow.xaml;;
+FC:\Users\user\Desktop\Personal\Client_FrontEnd\IngredientManagement\UpdateOrDeleteIngredientWindow.xaml;;
+FC:\Users\user\Desktop\Personal\Client_FrontEnd\RecipeManagement\AddRecipeWindow.xaml;;
+FC:\Users\user\Desktop\Personal\Client_FrontEnd\RecipeManagement\ManageRecipiesPage.xaml;;
+FC:\Users\user\Desktop\Personal\Client_FrontEnd\RecipeManagement\UpdateOrDeleteRecipePage.xaml;;
+FC:\Users\user\Desktop\Personal\Client_FrontEnd\FoodItemManagement\AddFoodItemWindow.xaml;;
+FC:\Users\user\Desktop\Personal\Client_FrontEnd\FoodItemManagement\UpdateOrDeleteFoodItemWindow.xaml;;
 

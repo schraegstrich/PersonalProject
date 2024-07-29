@@ -44,5 +44,22 @@ namespace Client_FrontEnd.Clients
             var response = await base.PostAsync(apiUrl, data);
             return response.IsSuccessStatusCode;
         }
+
+        public async Task<bool> UpdateIngredientAsync(Ingredient ingredient)
+        {
+            string apiUrl = $"{_baseUri}UpdateIngredientById";
+            var json = JsonSerializer.Serialize(ingredient);
+            var data = new StringContent(json, Encoding.UTF8, "application/json");
+            var response = await base.PostAsync(apiUrl, data);
+            return response.IsSuccessStatusCode;
+        }
+
+        public async Task<bool> DeleteIngredientAsync(Guid id)
+        {
+            string apiUrl = $"{_baseUri}DeleteIngredientById?id={id}";
+            var response = await base.DeleteAsync(apiUrl);
+            return response.IsSuccessStatusCode;
+        }
     }
+
 }

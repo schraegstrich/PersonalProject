@@ -101,7 +101,7 @@ namespace Client_FrontEnd {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Client_FrontEnd;component/addingredientwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Client_FrontEnd;V1.0.0.0;component/addingredientwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AddIngredientWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
