@@ -16,6 +16,19 @@ namespace Client_FrontEnd
         {
         }
 
+        public async Task<bool> InsertSensorDataEntryAsync(string id)
+        {
+            string apiUrl = $"{_baseUri}InsertSensorDataEntry?sensorId={id}";
+
+            var request = new HttpRequestMessage(HttpMethod.Post, apiUrl)
+            {
+                Content = new StringContent(string.Empty, Encoding.UTF8, "application/json")
+            };
+
+            HttpResponseMessage response = await base.SendAsync(request);
+
+            return response.IsSuccessStatusCode;
+        }
         public async Task<SensorDataEntry> GetLatestDataEntryBySensorIdAsync(string sensorId)
         {
             string apiUrl = $"{_baseUri}GetLatestDataEntryBySensorId?sensorId={sensorId}";

@@ -26,11 +26,13 @@ namespace API.Controllers
                 if (result)
                     return Ok("Data entry added");
                 else
-                    throw new Exception("Not added");
+                    return StatusCode(500, "Failed to add data entry.");
             }
             catch (Exception ex)
             {
-                return BadRequest(500);
+                // Log the exception details
+                System.Diagnostics.Debug.WriteLine($"Controller exception: {ex.Message}");
+                return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
         [HttpGet]
