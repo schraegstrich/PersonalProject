@@ -1,11 +1,8 @@
 ﻿CREATE PROCEDURE [dbo].[INSERT_DataEntry]
-	@SensorId INT,
-	@Shelf INT,
-	@PositionOnShelf INT,
-	@FoodItemId UNIQUEIDENTIFIER,
+	@SensorId NVARCHAR(20),
 	@ProductPresent INT
 AS
 INSERT INTO SensorData
-(DataEntryId, SensorId, Shelf, PositionOnShelf, FoodItemId, ProductPresent, DateAdded)
+(DataEntryId, SensorId, ProductPresent, DateAdded)
 values
-(NEWID(), @SensorId, @Shelf, @PositionOnShelf, @FoodItemId, @ProductPresent, SYSUTCDATETIME())
+(NEWID(), @SensorId, @ProductPresent, SYSUTCDATETIME())

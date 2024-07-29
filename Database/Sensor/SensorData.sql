@@ -1,11 +1,7 @@
 ﻿CREATE TABLE [dbo].[SensorData]
 (
 	[DataEntryId] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY,
-	[SensorId] INT NOT NULL,
-	[Shelf] INT NOT NULL,
-	[PositionOnShelf] INT NOT NULL,
-	[FoodItemId] UNIQUEIDENTIFIER NOT NULL,
+	[SensorId] NVARCHAR(20) NOT NULL,
 	[ProductPresent] INT NOT NULL,
-	[DateAdded] DATETIME NOT NULL,
-	CONSTRAINT FK_FoodItem FOREIGN KEY (FoodItemId) REFERENCES FoodItems(Id)
+	[DateAdded] DATETIME NOT NULL
 )

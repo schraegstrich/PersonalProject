@@ -42,40 +42,32 @@ namespace Client_FrontEnd
             //add logic to insert new data entry for each food item in recipe
             //change food item model and procedures to include shelf, position on shelf and sensor id, maybe a setter based on shelf and position
 
-            List<string> names = await GetMissingFoodItemNames(await GetAllFoodItemIdsinRecipe(recipe.Id));
+            List<string> names = await GetMissingFoodItemNames(await GetAllFoodItemsinRecipe(recipe.Id));
             missingItemsListView.ItemsSource = names;
         }
 
-        public async Task<List<Guid>> GetAllFoodItemIdsinRecipe( Guid recipeId)
+        public async Task<List<FoodItem>> GetAllFoodItemsinRecipe( Guid recipeId)
         {
             List<Ingredient> ingredientsInRecipe = await ingredientClient.GetIngredientsByRecipeId(recipeId);
-            List<Guid> foodItemsInRecipe = new List <Guid>();
+            List<FoodItem> foodItemsInRecipe = new List <FoodItem>();
             foreach(var ingredient in ingredientsInRecipe)
             {
-                foodItemsInRecipe.Add(ingredient.FoodItemId);
+                foodItemsInRecipe.Add(await foodClient.GetFoodItemById(ingredient.FoodItemId));
             }
             return(foodItemsInRecipe);
 
         }
-        public async Task<List<string>> GetMissingFoodItemNames(List<Guid> foodIds)
+        public async Task<List<string>> GetMissingFoodItemNames(List<FoodItem> foods)
         {
             SensorDataEntry entry = new SensorDataEntry();
-            FoodItem foodItem = new FoodItem();
-            Dictionary<string, int> nameStatusPair = new Dictionary<string, int>();
             List<string> missingFoodItemNames = new List<string>();
-            foreach (Guid id in foodIds)
+            foreach (FoodItem food in foods)
             {
-                entry = await sensor.GetLatestDataEntryByFoodIdAsync(id);
-                foodItem = await foodClient.GetFoodItemById(id);
-                if (entry != null && foodItem != null)
+                entry = await sensor.GetLatestDataEntryBySensorIdAsync(food.SensorId);
+                if (entry.ProductPresent == 0)
                 {
-                    nameStatusPair.Add(foodItem.Name, entry.ProductPresent);
+                    missingFoodItemNames.Add(food.Name);
                 }
-            }
-            foreach (var pair in  nameStatusPair)
-            {
-                if (pair.Value == 0)
-                    missingFoodItemNames.Add(pair.Key);
             }
             return missingFoodItemNames;
         }
@@ -103,21 +95,5 @@ namespace Client_FrontEnd
             }
         }
 
-    }
-    public class StringToVisibilityConverter : IValueConverter
-    {
-        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
-        {
-            if (value is string str && !string.IsNullOrEmpty(str))
-            {
-                return Visibility.Visible;
-            }
-            return Visibility.Collapsed;
-        }
-
-        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

@@ -38,7 +38,7 @@ namespace Client_FrontEnd
 
         private void manageRecipiesButton_Click(object sender, RoutedEventArgs e)
         {
-
+            pageFrame.Content = new ManageRecipiesPage();
         }
     }
 }

@@ -35,5 +35,14 @@ namespace Client_FrontEnd.Clients
                 throw new Exception("Error retrieving entry");
             }
         }
+
+        public async Task<bool> InsertIngredientAsync(Ingredient ingredient)
+        {
+            string apiUrl = $"{_baseUri}InsertIngredient";
+            var json = JsonSerializer.Serialize(ingredient);
+            var data = new StringContent(json, Encoding.UTF8, "application/json");
+            var response = await base.PostAsync(apiUrl, data);
+            return response.IsSuccessStatusCode;
+        }
     }
 }

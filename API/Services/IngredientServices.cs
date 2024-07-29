@@ -54,7 +54,7 @@ namespace Services
             }
         }
 
-       public async Task<bool> InserIngredientAsync(Ingredient ingredient)
+       public async Task<bool> InsertIngredientAsync(Ingredient ingredient)
         {
             try
             {

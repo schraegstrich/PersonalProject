@@ -3,6 +3,7 @@ using Models;
 using Services;
 using System.Data.SqlClient;
 using System.Xml.Linq;
+using static Models.FoodItem;
 
 namespace API.Services
 {
@@ -36,7 +37,10 @@ namespace API.Services
                         Link = await reader.IsDBNullAsync(2) ? null : reader.GetString(2),
                         QuantityInPackInGramsOrMl = await reader.IsDBNullAsync(3) ? null : reader.GetInt32(3),
                         QuantityInPcs = await reader.IsDBNullAsync(4) ? null : reader.GetInt32(4),
-                        DateAdded = reader.GetDateTime(5),
+                        Shelf = reader.GetInt32(5),
+                        PositionOnShelf = (Position)(int)reader.GetValue(6),
+                        SensorId = reader.GetString(7),
+                        DateAdded = reader.GetDateTime(8),
                         UsedAsIngredient = await ingredientServices.GetIngredientsByIdsAsync("FoodItemId", reader.GetGuid(0))
 
                     });
@@ -70,7 +74,10 @@ namespace API.Services
                     food.Link = await reader.IsDBNullAsync(2) ? null : reader.GetString(2);
                     food.QuantityInPackInGramsOrMl = await reader.IsDBNullAsync(3) ? null : reader.GetInt32(3);
                     food.QuantityInPcs = await reader.IsDBNullAsync(4) ? null : reader.GetInt32(4);
-                    food.DateAdded = reader.GetDateTime(5);
+                    food.Shelf = reader.GetInt32(5);
+                    food.PositionOnShelf = (Position)(int)reader.GetValue(6);
+                    food.SensorId = reader.GetString(7);
+                    food.DateAdded = reader.GetDateTime(8);
                     food.UsedAsIngredient = await ingredientServices.GetIngredientsByIdsAsync("FoodItemId", reader.GetGuid(0));
                 }
                 await connection.CloseAsync();
@@ -93,11 +100,13 @@ namespace API.Services
                 SqlCommand command = new SqlCommand("INSERT_FoodItem", connection);
                 command.CommandType = System.Data.CommandType.StoredProcedure;
 
-                command.Parameters.AddWithValue("Name", value: food.Name);
+                command.Parameters.AddWithValue("Name",  food.Name);
                 command.Parameters.AddWithValue("Link", food.Link == null ? DBNull.Value : food.Link);
                 command.Parameters.AddWithValue("QuantityInPackInGramsOrMl", food.QuantityInPackInGramsOrMl == null ? DBNull.Value : food.QuantityInPackInGramsOrMl);
                 command.Parameters.AddWithValue("QuantityInPcs", food.QuantityInPcs == null ? DBNull.Value : food.QuantityInPcs);
-
+                command.Parameters.AddWithValue("Shelf", food.Shelf);
+                command.Parameters.AddWithValue("PositionOnShelf", (int)food.PositionOnShelf);
+                command.Parameters.AddWithValue("SensorId", food.SetSensorId());
 
                 int result = await command.ExecuteNonQueryAsync();
                 await connection.CloseAsync();
@@ -125,6 +134,9 @@ namespace API.Services
                 command.Parameters.AddWithValue("Link", food.Link == null ? DBNull.Value : food.Link);
                 command.Parameters.AddWithValue("QuantityInPackInGramsOrMl", food.QuantityInPackInGramsOrMl == null ? DBNull.Value : food.QuantityInPackInGramsOrMl);
                 command.Parameters.AddWithValue("QuantityInPcs", food.QuantityInPcs == null ? DBNull.Value : food.QuantityInPcs);
+                command.Parameters.AddWithValue("Shelf", food.Shelf);
+                command.Parameters.AddWithValue("PositionOnShelf", (int)food.PositionOnShelf);
+                command.Parameters.AddWithValue("SensorId", food.SetSensorId());
 
 
                 int result = await command.ExecuteNonQueryAsync();

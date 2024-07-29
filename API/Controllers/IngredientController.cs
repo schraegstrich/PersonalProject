@@ -30,7 +30,7 @@ namespace API.Controllers
         {
             try
             {
-                bool result = await ingredient.InserIngredientAsync(newIngredient);
+                bool result = await ingredient.InsertIngredientAsync(newIngredient);
                 if (result)
                     return Ok("Ingredient added");
                 else

@@ -16,9 +16,9 @@ namespace Client_FrontEnd
         {
         }
 
-        public async Task<SensorDataEntry> GetLatestDataEntryByFoodIdAsync(Guid id)
+        public async Task<SensorDataEntry> GetLatestDataEntryBySensorIdAsync(string sensorId)
         {
-            string apiUrl = $"{_baseUri}GetLatestDataEntryByFoodItemId?foodItemId={id}";
+            string apiUrl = $"{_baseUri}GetLatestDataEntryBySensorId?sensorId={sensorId}";
             var response = await base.GetAsync(apiUrl);
             if (response.IsSuccessStatusCode)
             {

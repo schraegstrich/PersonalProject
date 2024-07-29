@@ -84,7 +84,7 @@
     <Build Include="Cookbook\Ingredients\GET_IngredientById.sql" />
     <Build Include="Sensor\SensorData.sql" />
     <Build Include="Sensor\INSERT_DataEntry.sql" />
-    <Build Include="Sensor\GET_LatestEntryForFoodItemId.sql" />
+    <Build Include="Sensor\GET_LatestEntryForSensorId.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Database.refactorlog" />

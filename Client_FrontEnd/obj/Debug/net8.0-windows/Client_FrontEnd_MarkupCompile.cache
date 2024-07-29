@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\user\Desktop\Personal\Client_FrontEnd\App.xaml
-3-593680411
+8553054173
 
-101906335340
+16-631569425
 338318527289
-MainWindow.xaml;ToCookPage.xaml;WelcomePage.xaml;
+AddIngredientWindow.xaml;AddRecipeWindow.xaml;MainWindow.xaml;ManageRecipiesPage.xaml;ToCookPage.xaml;UpdateOrDeleteIngredientWindow.xaml;UpdateOrDeleteRecipePage.xaml;WelcomePage.xaml;
 
 False
 

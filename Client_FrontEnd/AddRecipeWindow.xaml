@@ -1,0 +1,38 @@
+﻿<Window x:Class="Client_FrontEnd.AddRecipeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client_FrontEnd"
+        mc:Ignorable="d"
+        Title="AddRecipeWindow" Height="450" Width="800">
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition  Height="80"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="220,81,0,0">
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Label x:Name="lName" Content="Name : " />
+                <TextBox x:Name="tName" Width="200" Margin="2"/>
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Label  Content="Description : " />
+                <TextBox x:Name="tDescription" Width="200" Margin="2"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Label Content="Cooking time in minutes : " />
+                <TextBox x:Name="tCookingTime" Width="200" Margin="2" />
+            </StackPanel>
+
+
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="addButton" Content="Add recipe"  Background="#FF2F800B" Width="90" Margin="20,0,50,0" Click="addButton_Click"/>
+            <Button x:Name="ingredientsButton" Content="Add ingredients"  Background="#FF2F800B" Margin="50,0,20,0" Width="90" Height="36" Click="ingredientsButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

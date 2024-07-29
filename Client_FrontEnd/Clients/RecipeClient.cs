@@ -34,6 +34,29 @@ namespace Client_FrontEnd
                 throw new Exception("Error retrieving recipes");
             }
         }
+        public async Task<bool> InsertRecipeAsync(Recipe recipe)
+        {
+            string apiUrl = $"{_baseUri}InsertRecipe";
+            var json = JsonSerializer.Serialize(recipe);
+            var data = new StringContent(json, Encoding.UTF8, "application/json");
+            var response = await base.PostAsync(apiUrl, data);
+            return response.IsSuccessStatusCode;
+        }
+
+        public async Task<bool> UpdateRecipeAsync(Recipe recipe)
+        {
+            string apiUrl = $"{_baseUri}UpdateRecipeById";
+            var json = JsonSerializer.Serialize(recipe);
+            var data = new StringContent(json, Encoding.UTF8, "application/json");
+            var response = await base.PostAsync(apiUrl, data);
+            return response.IsSuccessStatusCode;
+        }
+        public async Task<bool> DeleteRecipeAsync(Guid id)
+        {
+            string apiUrl = $"{_baseUri}DeleteRecipeById?id={id}";
+            var response = await base.DeleteAsync(apiUrl);
+            return response.IsSuccessStatusCode;
+        }
 
     }
 }

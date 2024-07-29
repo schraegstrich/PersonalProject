@@ -35,5 +35,24 @@ namespace Client_FrontEnd.Clients
                 throw new Exception("Error retrieving entry");
             }
         }
+
+        public async Task<List<FoodItem>> GetAllFoodItemsAsync()
+        {
+            string apiUrl = $"{_baseUri}GetAllFoodItems";
+            var response = await base.GetAsync(apiUrl);
+            if (response.IsSuccessStatusCode)
+            {
+                if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
+                {
+                    return null;
+                }
+                var json = await response.Content.ReadAsStringAsync();
+                return JsonSerializer.Deserialize<List<FoodItem>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            }
+            else
+            {
+                throw new Exception("Error retrieving items");
+            }
+        }
     }
 }

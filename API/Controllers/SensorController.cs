@@ -18,11 +18,11 @@ namespace API.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> InsertSensorDataEntry([FromServices] SensorInsertService sensor, [FromQuery] int sensorId, int shelf, int position, Guid foodItemId)
+        public async Task<IActionResult> InsertSensorDataEntry([FromServices] SensorInsertService sensor, [FromQuery] string sensorId)
         {
             try
             {
-                bool result = await sensor.InsertSensorDataAsync(sensorId, shelf, position, foodItemId);
+                bool result = await sensor.InsertSensorDataAsync(sensorId);
                 if (result)
                     return Ok("Data entry added");
                 else
@@ -34,19 +34,15 @@ namespace API.Controllers
             }
         }
         [HttpGet]
-        public async Task<IActionResult> GetLatestDataEntryByFoodItemId([FromServices] SensorDBServices entry, [FromQuery] Guid foodItemId)
+        public async Task<IActionResult> GetLatestDataEntryBySensorId([FromServices] SensorDBServices entry, [FromQuery] string sensorId)
         {
             try
             {
-                SensorDataEntry latestEntry = await entry.GetLatestDataEntryByFoodItemIdAsync(foodItemId);
+                SensorDataEntry latestEntry = await entry.GetLatestDataEntryBySensorIdAsync(sensorId);
                 if (latestEntry != null)
                     return Ok(latestEntry);
                 else
                     throw new Exception("No entry retrieved");
-            }
-            catch (FormatException)
-            {
-                return BadRequest("Invalid GUID format for foodItemId");
             }
             catch (Exception ex)
             {

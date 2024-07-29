@@ -7,7 +7,22 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AddIngredientWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddRecipeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ManageRecipiesPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ToCookPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdateOrDeleteIngredientWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdateOrDeleteRecipePage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="WelcomePage.xaml.cs">
@@ -15,10 +30,25 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="AddIngredientWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddRecipeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="ManageRecipiesPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ToCookPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateOrDeleteIngredientWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateOrDeleteRecipePage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="WelcomePage.xaml">

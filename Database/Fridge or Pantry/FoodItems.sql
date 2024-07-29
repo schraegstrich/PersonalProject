@@ -5,5 +5,8 @@ CREATE TABLE [dbo].[FoodItems]
 	[Link] NVARCHAR(2500),
 	[QuantityInPackInGramsOrMl] INT,
 	[QuantityInPcs] INT,
+	[Shelf] INT NOT NULL,
+	[PositionOnShelf] INT NOT NULL,
+	[SensorId] NVARCHAR(20) NOT NULL,
 	[DateAdded] DATETIME NOT NULL
 )

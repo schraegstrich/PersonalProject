@@ -16,7 +16,7 @@ using System.Windows.Input;
             static int indicator = -1;
             public SqlConnection connection = new SqlConnection(Environment.GetEnvironmentVariable("DB_CONNECTION_STRING"));
 
-            public async Task SerialPortLauncher()
+            /*public async Task SerialPortLauncher()
             {
                 serialPort = new SerialPort("COM4", 9600);
                 serialPort.DataReceived += new SerialDataReceivedEventHandler(DataReceivedHandler);
@@ -61,76 +61,13 @@ using System.Windows.Input;
                         throw new Exception();
                     }
                 }
-            }
-
-        //
-        /*public async Task<bool> InsertSensorDataAsync(SensorDataEntry entry)
-        {
-            if (entry == null)
-            {
-                throw new ArgumentNullException(nameof(entry), "Sensor data entry is null.");
-            }
-
-            SerialPortLauncher();
-
-            await Task.Delay(5000);
-
-            string connectionString = Environment.GetEnvironmentVariable("DB_CONNECTION_STRING");
-
-            if (string.IsNullOrEmpty(connectionString))
-            {
-                throw new InvalidOperationException("Database connection string is not configured.");
-            }
-
-            SqlConnection connection = new SqlConnection(connectionString);
-
-            try
-            {
-                await connection.OpenAsync();
-                SqlCommand command = new SqlCommand("INSERT_DataEntry", connection)
-                {
-                    CommandType = System.Data.CommandType.StoredProcedure
-                };
-
-                entry.ProductPresent = productPresent;
-
-                command.Parameters.AddWithValue("@SensorId", entry.SensorId);
-                command.Parameters.AddWithValue("@Shelf", entry.Shelf);
-                command.Parameters.AddWithValue("@PositionOnShelf", entry.PositionOnShelf);
-                command.Parameters.AddWithValue("@FoodItemId", entry.FoodItemId);
-                command.Parameters.AddWithValue("@ProductPresent", entry.ProductPresent);
-
-                // Log the command and parameters for debugging
-                Console.WriteLine($"Executing command: {command.CommandText}");
-                foreach (SqlParameter param in command.Parameters)
-                {
-                    Console.WriteLine($"{param.ParameterName}: {param.Value}");
-                }
-
-                int result = await command.ExecuteNonQueryAsync();
-                await connection.CloseAsync();
-
-                return result > 0;
-            }
-            catch (SqlException sqlEx)
-            {
-                System.Diagnostics.Debug.WriteLine($"SQL error: {sqlEx.ToString()}");
-                await connection.CloseAsync();
-                return false;
-            }
-            catch (Exception ex)
-            {
-                System.Diagnostics.Debug.WriteLine($"General error: {ex.ToString()}");
-                await connection.CloseAsync();
-                return false;
-            }
-        }*/
+            }*/
 
 
-            public async Task<bool> InsertSensorDataAsync(int sensorId, int shelf, int position, Guid foodItemId)
+            public async Task<bool> InsertSensorDataAsync(string sensorId)
             {
                 
-                await SerialPortLauncher();
+                //await SerialPortLauncher();
                 //if (indicator != 1)
                 //{
                 //throw new Exception("data transfer failed");
@@ -143,10 +80,7 @@ using System.Windows.Input;
                     command.CommandType = System.Data.CommandType.StoredProcedure;
 
                     command.Parameters.AddWithValue("SensorId",  sensorId);
-                    command.Parameters.AddWithValue("Shelf", shelf);
-                    command.Parameters.AddWithValue("PositionOnShelf", position);
-                    command.Parameters.AddWithValue("FoodItemId", foodItemId);
-                    command.Parameters.AddWithValue("ProductPresent", productPresent);
+                    command.Parameters.AddWithValue("ProductPresent", 0);
 
                     int result = await command.ExecuteNonQueryAsync();
                     await connection.CloseAsync();
